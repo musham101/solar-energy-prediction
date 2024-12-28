@@ -1,7 +1,3 @@
-Here's a `README.md` file based on your project details:  
-
----
-
 # Solar Energy Production Forecasting
 
 ## Introduction
