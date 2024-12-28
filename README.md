@@ -16,7 +16,7 @@ This project predicts the energy production of a solar system using various mach
    ```bash
    pip install -r requirements.txt
    ```
-4. Inference UI:
+4. Inference url:
     ```bash
    http://15.206.128.214/solar_forcast/
    ```
