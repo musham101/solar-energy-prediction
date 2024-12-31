@@ -16,8 +16,8 @@ This project predicts the energy production of a solar system using various mach
    ```bash
    pip install -r requirements.txt
    ```
-4. Inference url:
-    ```bash
+4. Access the inference URL:
+   ```bash
    http://15.206.128.214/solar_forcast/
    ```
 
@@ -27,6 +27,8 @@ This project predicts the energy production of a solar system using various mach
 - Review the predictions directly on the UI.
 
 ## Results and Visuals
+
+### Model Performance
 The Random Forest Regression model was chosen as the best-performing model after comparing results from:
 - Regression
 - ARIMA
@@ -34,10 +36,22 @@ The Random Forest Regression model was chosen as the best-performing model after
 - Prophet
 - Random Forest Regression
 
-Key metrics and visuals from the evaluation process:
-- **Model Accuracy**: Random Forest Regression outperformed other models in terms of RMSE and MAE.
-- **Hyperparameter Tuning**: Improved the model's performance through grid search.
-- **Feature Importance Plot**: Displays the significance of input features used in the predictions.
+Key metrics and visuals from the evaluation process include:
+
+#### Test Set and Future Predictions
+This plot compares actual test values with predicted values and includes forecasts for the next 7 days:
+
+![Test and Future Predictions](results/Test_and_Future_Predictions.jpeg)
+
+#### Predicted Solar Production for the Next 7 Days
+This plot shows the detailed predictions for solar energy production over the next 7 days:
+
+![Predicted Solar Production](results/Predicted_Solar_7_Days_Production.jpeg)
+
+#### Feature Importance
+The feature importance plot highlights the significance of input variables used by the Random Forest Regression model:
+
+![Feature Importance](results/Feature_Importance.jpeg)
 
 ## License Information
 This project is licensed under the MIT License. See the `LICENSE` file for details.
